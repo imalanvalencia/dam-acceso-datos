@@ -41,7 +41,7 @@ public class Ejer205 {
                 }
             }
         } catch (ClassNotFoundException ce) {
-            System.out.println("MySQL no accesible");
+            Conexion.errorMessage();
         }
     }
 }

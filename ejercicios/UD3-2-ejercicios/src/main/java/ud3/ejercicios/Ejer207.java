@@ -39,7 +39,7 @@ public class Ejer207 {
                 System.out.println(se.getErrorCode() + " " + se.getMessage());
             }
         } catch (ClassNotFoundException ce) {
-            System.out.println("MySQL no accesible");
+            Conexion.errorMessage();
         }
     }
 }
